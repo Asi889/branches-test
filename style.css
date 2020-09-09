@@ -4,5 +4,17 @@
     width: 200px;
     height: 200px;
     background-color: rgb(238, 105, 81);
-    display: inline-block
+    display: grid;
+    cursor: pointer;
+    justify-content: center;
+    align-content: center;
+    
+    color: white;
+    align-items: center;
+    font-size: 3em;
+    /* display: inline-lock; */
+}
+.box:active{
+    width: 230px;
+    height: 230px;
 }
